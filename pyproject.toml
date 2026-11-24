@@ -1,0 +1,9 @@
+[project]
+name = "sqg-blowup"
+version = "0.1.0"
+description = "Pseudo-spectral study of possible finite-time singularity in inviscid 2D SQG"
+requires-python = ">=3.12"
+dependencies = ["numpy>=2.0", "scipy>=1.12", "matplotlib>=3.8", "numexpr>=2.10", "pytest>=8"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

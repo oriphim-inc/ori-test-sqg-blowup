@@ -1,0 +1,315 @@
+## A_cmt
+- VERDICT (PLAN rule): no blow-up indicated  {"delta_collapse_beats_exp": false, "grad_finite_time_clearly_best": false, "Tstar_grad_delta_agree": true, "Tstar_grad_stable_in_N": false, "delta_exp_at_least_as_good": true, "Tstar_delta_moves_later_with_N": false, "grad_finite_time_not_clearly_best": true}
+- N=512: resolved to t=5.22; window t>=2.62
+    grad  exponential: a=0.6528±0.013(SE)±0.16(total), b=0.3532±0.0049(SE)±0.062(total)  AIC=-828.5
+    grad  double_exponential: a=1.183±0.0073(SE)±0.14(total), b=0.1236±0.0028(SE)±0.057(total), c=0.458±0.0036(SE)±0.055(total)  AIC=-1468.2
+    grad  finite_time: B=1.765±0.0028(SE)±0.32(total), gamma=0.8302±0.014(SE)±0.23(total), T=6.416±0.035(SE)±0.51(total)  AIC=-1273.1
+    delta exponential_decay: a=1.727±0.015(SE)±0.14(total), b=-0.8186±0.0022(SE)±0.019(total)  AIC=-1032.0
+    delta finite_time_collapse: B=0.2022±0.001(SE)±0.12(total), p=819.7±6.7e+03(SE)±6.7e+03(total), T=1005±8.1e+03(SE)±8.1e+03(total)  [T* at upper bound: no finite T*]  AIC=-1029.2
+    T*(grad) over window starts (0.4, 0.5, 0.6, 0.7): 6.18, 6.42, 6.76, 7.2
+    T*(delta) over window starts: 1.01e+03, 1.01e+03, 1.01e+03, 1.01e+03
+- N=1024: resolved to t=5.92; window t>=2.96
+    grad  exponential: a=0.4579±0.011(SE)±0.15(total), b=0.4416±0.0055(SE)±0.076(total)  AIC=-846.4
+    grad  double_exponential: a=1.031±0.0065(SE)±0.11(total), b=0.1897±0.003(SE)±0.05(total), c=0.393±0.0022(SE)±0.033(total)  AIC=-1656.7
+    grad  finite_time: B=1.866±0.0033(SE)±0.52(total), gamma=1.199±0.015(SE)±0.26(total), T=7.319±0.032(SE)±0.46(total)  AIC=-1401.7
+    delta exponential_decay: a=2.059±0.0078(SE)±0.072(total), b=-0.8683±0.00084(SE)±0.0071(total)  AIC=-1407.2
+    delta finite_time_collapse: B=0.1574±0.00034(SE)±0.096(total), p=869.6±2.2e+03(SE)±2.3e+03(total), T=1006±2.6e+03(SE)±2.6e+03(total)  [T* at upper bound: no finite T*]  AIC=-1399.3
+    T*(grad) over window starts (0.4, 0.5, 0.6, 0.7): 7.02, 7.32, 7.67, 7.95
+    T*(delta) over window starts: 43.8, 1.01e+03, 1.01e+03, 1.01e+03
+- N=2048: resolved to t=6.60; window t>=3.30
+    grad  exponential: a=0.2942±0.0098(SE)±0.13(total), b=0.5401±0.0066(SE)±0.095(total)  AIC=-830.3
+    grad  double_exponential: a=0.94±0.0036(SE)±0.066(total), b=0.2324±0.0017(SE)±0.029(total), c=0.366±0.00093(SE)±0.016(total)  AIC=-1974.0
+    grad  finite_time: B=2.006±0.0038(SE)±0.79(total), gamma=1.574±0.016(SE)±0.28(total), T=8.055±0.026(SE)±0.4(total)  AIC=-1516.1
+    delta exponential_decay: a=2.313±0.0053(SE)±0.077(total), b=-0.8982±0.00046(SE)±0.0063(total)  AIC=-1716.8
+    delta finite_time_collapse: B=0.1193±0.00016(SE)±0.084(total), p=899.6±1.1e+03(SE)±1.2e+03(total), T=1007±1.2e+03(SE)±1.3e+03(total)  [T* at upper bound: no finite T*]  AIC=-1711.3
+    T*(grad) over window starts (0.4, 0.5, 0.6, 0.7): 7.77, 8.05, 8.32, 8.56
+    T*(delta) over window starts: 46.2, 1.01e+03, 1.01e+03, 1.01e+03
+- N=4096: resolved to t=7.26; window t>=5.54  [window starts clipped at hand-off: window spread not informative]
+    grad  exponential: a=0.04554±0.0015(SE)±0.0015(total), b=0.855±0.0052(SE)±0.0052(total)  AIC=-643.8
+    grad  double_exponential: a=0.3427±0.014(SE)±0.014(total), b=0.6995±0.022(SE)±0.022(total), c=0.2483±0.0029(SE)±0.0029(total)  AIC=-1030.3
+    grad  finite_time: B=5.446±0.0055(SE)±0.0055(total), gamma=3.497±0.055(SE)±0.055(total), T=10.53±0.064(SE)±0.064(total)  AIC=-980.4
+    delta exponential_decay: a=2.837±0.059(SE)±0.059(total), b=-0.9402±0.0031(SE)±0.0031(total)  AIC=-532.0
+    delta finite_time_collapse: B=0.008338±2.4e-05(SE)±2.4e-05(total), p=940.7±2.3e+04(SE)±2.3e+04(total), T=1007±2.4e+04(SE)±2.4e+04(total)  [T* at upper bound: no finite T*]  AIC=-529.9
+    T*(grad) over window starts (0.4, 0.5, 0.6, 0.7): 10.5, 10.5, 10.5, 10.5
+    T*(delta) over window starts: 1.01e+03, 1.01e+03, 1.01e+03, 1.01e+03
+- N=8192: resolved to t=7.90; window t>=6.32  [window starts clipped at hand-off: window spread not informative]
+    grad  exponential: a=0.01884±0.00047(SE)±0.00047(total), b=0.9851±0.0035(SE)±0.0035(total)  AIC=-674.4
+    grad  double_exponential: a=0.03239±0.002(SE)±0.002(total), b=2.179±0.044(SE)±0.044(total), c=0.1526±0.0015(SE)±0.0015(total)  AIC=-1068.2
+    grad  finite_time: B=9.813±0.0047(SE)±0.0047(total), gamma=6.495±0.078(SE)±0.078(total), T=13.72±0.079(SE)±0.079(total)  AIC=-1033.8
+    delta exponential_decay: a=3.722±0.06(SE)±0.06(total), b=-0.9878±0.0022(SE)±0.0022(total)  AIC=-524.5
+    delta finite_time_collapse: B=0.003846±6.8e-06(SE)±6.8e-06(total), p=988.2±1.8e+04(SE)±1.8e+04(total), T=1008±1.8e+04(SE)±1.8e+04(total)  [T* at upper bound: no finite T*]  AIC=-521.8
+    T*(grad) over window starts (0.4, 0.5, 0.6, 0.7): 13.7, 13.7, 13.7, 13.7
+    T*(delta) over window starts: 1.01e+03, 1.01e+03, 1.01e+03, 1.01e+03
+- N=composite: resolved to t=7.90; window t>=3.96  [composite: delta fit spans grid seams, NOT citable]
+    grad  exponential: a=0.1021±0.0048(SE)±0.07(total), b=0.7427±0.0077(SE)±0.13(total)  AIC=-822.9
+    grad  double_exponential: a=0.5648±0.014(SE)±0.28(total), b=0.4822±0.012(SE)±0.39(total), c=0.2814±0.0026(SE)±0.052(total)  AIC=-1650.5
+    grad  finite_time: B=2.382±0.011(SE)±1.8(total), gamma=2.836±0.044(SE)±1.1(total), T=9.953±0.055(SE)±1.2(total)  AIC=-1437.0
+    delta exponential_decay: a=3.164±0.029(SE)±0.64(total), b=-0.9646±0.0016(SE)±0.026(total)  AIC=-989.5
+    delta finite_time_collapse: B=0.06641±0.00013(SE)±0.063(total), p=22.79±0.77(SE)±4.9e+02(total), T=29.64±0.8(SE)±4.9e+02(total)  AIC=-1264.4
+    T*(grad) over window starts (0.4, 0.5, 0.6, 0.7): 9.49, 9.95, 10.6, 11.9
+    T*(delta) over window starts: 29.3, 29.6, 38, 1.01e+03
+- convergence 512 vs 1024: overlap [0.0, 5.72], coarse resolved until 5.22, grad differs >1e-3 from t=5.58, max rel grad diff while resolved 8.435157293666345e-05
+- convergence 1024 vs 2048: overlap [0.0, 6.52], coarse resolved until 5.92, grad differs >1e-3 from t=6.18, max rel grad diff while resolved 0.00012052397177788075
+- convergence 2048 vs 4096: overlap [5.54, 7.24], coarse resolved until 6.60, grad differs >1e-3 from t=6.78, max rel grad diff while resolved 0.000332617003527248
+- convergence 4096 vs 8192: overlap [6.32, 7.9], coarse resolved until 7.26, grad differs >1e-3 from t=7.38, max rel grad diff while resolved 0.00042644869195670906
+## B_multisaddle
+- VERDICT (PLAN rule): no blow-up indicated  {"delta_collapse_beats_exp": false, "grad_finite_time_clearly_best": false, "Tstar_grad_delta_agree": true, "Tstar_grad_stable_in_N": false, "delta_exp_at_least_as_good": true, "Tstar_delta_moves_later_with_N": false, "grad_finite_time_not_clearly_best": true}
+- N=512: resolved to t=1.36; window t>=0.70
+    grad  exponential: a=3.187±0.037(SE)±0.25(total), b=0.5808±0.011(SE)±0.07(total)  AIC=-294.5
+    grad  double_exponential: a=3.614±0.0078(SE)±0.057(total), b=0.1274±0.0014(SE)±0.0094(total), c=1.244±0.0057(SE)±0.034(total)  AIC=-542.9
+    grad  finite_time: B=4.89±0.0024(SE)±0.42(total), gamma=0.4824±0.0079(SE)±0.063(total), T=1.888±0.013(SE)±0.092(total)  AIC=-455.5
+    delta exponential_decay: a=0.5782±0.023(SE)±0.16(total), b=-2.232±0.038(SE)±0.19(total)  AIC=-211.4
+    delta finite_time_collapse: B=0.1128±0.00062(SE)±0.042(total), p=2.154±0.12(SE)±1.1(total), T=2.019±0.05(SE)±0.47(total)  AIC=-293.4
+    T*(grad) over window starts (0.4, 0.5, 0.6, 0.7): 1.85, 1.89, 1.94, 2.03
+    T*(delta) over window starts: 2.9, 2.02, 1.96, 2.4
+- N=1024: resolved to t=1.66; window t>=0.84
+    grad  exponential: a=2.671±0.043(SE)±0.34(total), b=0.7427±0.013(SE)±0.093(total)  AIC=-326.4
+    grad  double_exponential: a=3.175±0.038(SE)±0.42(total), b=0.2116±0.0077(SE)±0.094(total), c=0.9948±0.016(SE)±0.14(total)  AIC=-520.4
+    grad  finite_time: B=5.155±0.0066(SE)±0.73(total), gamma=0.7785±0.021(SE)±0.22(total), T=2.332±0.027(SE)±0.25(total)  AIC=-475.9
+    delta exponential_decay: a=0.6392±0.019(SE)±0.14(total), b=-2.332±0.024(SE)±0.14(total)  AIC=-275.0
+    delta finite_time_collapse: B=0.08477±0.00052(SE)±0.037(total), p=4.467±0.32(SE)±1.3e+02(total), T=3.184±0.14(SE)±53(total)  AIC=-349.2
+    T*(grad) over window starts (0.4, 0.5, 0.6, 0.7): 2.22, 2.33, 2.49, 2.73
+    T*(delta) over window starts: 3.62, 3.18, 4.23, 109
+- N=2048: resolved to t=1.96; window t>=1.00
+    grad  exponential: a=2.176±0.038(SE)±0.33(total), b=0.8973±0.012(SE)±0.095(total)  AIC=-367.0
+    grad  double_exponential: a=2.237±0.062(SE)±0.72(total), b=0.4558±0.02(SE)±0.28(total), c=0.6954±0.015(SE)±0.15(total)  AIC=-557.0
+    grad  finite_time: B=5.558±0.0092(SE)±1.2(total), gamma=1.336±0.04(SE)±0.49(total), T=3.001±0.043(SE)±0.48(total)  AIC=-524.9
+    delta exponential_decay: a=0.7447±0.0079(SE)±0.061(total), b=-2.439±0.0071(SE)±0.053(total)  AIC=-416.2
+    delta finite_time_collapse: B=0.06445±0.00036(SE)±0.034(total), p=57.16±30(SE)±1.2e+03(total), T=24.92±12(SE)±5e+02(total)  AIC=-418.1
+    T*(grad) over window starts (0.4, 0.5, 0.6, 0.7): 2.76, 3, 3.3, 3.72
+    T*(delta) over window starts: 6.22, 24.9, 1e+03, 1e+03
+- N=4096: resolved to t=2.26; window t>=1.50  [window starts clipped at hand-off: window spread not informative]
+    grad  exponential: a=1.532±0.017(SE)±0.034(total), b=1.102±0.006(SE)±0.011(total)  AIC=-371.0
+    grad  double_exponential: a=0.4±0.034(SE)±0.079(total), b=1.855±0.074(SE)±0.21(total), c=0.3231±0.008(SE)±0.02(total)  AIC=-518.4
+    grad  finite_time: B=8.127±0.0051(SE)±0.41(total), gamma=3.441±0.098(SE)±0.26(total), T=5.013±0.089(SE)±0.23(total)  AIC=-508.2
+    delta exponential_decay: a=0.5287±0.0046(SE)±0.0046(total), b=-2.263±0.0041(SE)±0.0041(total)  AIC=-215.7
+    delta finite_time_collapse: B=0.006555±7.4e-06(SE)±7.4e-06(total), p=2263±9.8e+04(SE)±9.8e+04(total), T=1002±4.3e+04(SE)±4.3e+04(total)  [T* at upper bound: no finite T*]  AIC=-213.5
+    T*(grad) over window starts (0.4, 0.5, 0.6, 0.7): 5.01, 5.01, 5.01, 5.44
+    T*(delta) over window starts: 1e+03, 1e+03, 1e+03, 1e+03
+- N=composite: resolved to t=2.26; window t>=1.14  [composite: delta fit spans grid seams, NOT citable]
+    grad  exponential: a=1.818±0.03(SE)±0.29(total), b=1.014±0.0097(SE)±0.087(total)  AIC=-422.9
+    grad  double_exponential: a=1.167±0.064(SE)±0.74(total), b=0.963±0.045(SE)±0.79(total), c=0.4701±0.012(SE)±0.14(total)  AIC=-615.2
+    grad  finite_time: B=6.031±0.011(SE)±1.9(total), gamma=2.218±0.071(SE)±1.1(total), T=3.917±0.068(SE)±0.98(total)  AIC=-591.1
+    delta exponential_decay: a=0.7313±0.0071(SE)±0.1(total), b=-2.417±0.0056(SE)±0.077(total)  AIC=-300.0
+    delta finite_time_collapse: B=0.04648±0.00027(SE)±0.034(total), p=2419±5.8e+04(SE)±5.8e+04(total), T=1002±2.4e+04(SE)±2.4e+04(total)  [T* at upper bound: no finite T*]  AIC=-297.5
+    T*(grad) over window starts (0.4, 0.5, 0.6, 0.7): 3.48, 3.92, 4.52, 5.44
+    T*(delta) over window starts: 17.1, 1e+03, 1e+03, 1e+03
+- convergence 512 vs 1024: overlap [0.0, 1.6], coarse resolved until 1.36, grad differs >1e-3 from t=None, max rel grad diff while resolved 1.791142397971859e-05
+- convergence 1024 vs 2048: overlap [0.0, 1.94], coarse resolved until 1.66, grad differs >1e-3 from t=None, max rel grad diff while resolved 5.8227108423152174e-05
+- convergence 2048 vs 4096: overlap [1.5, 2.26], coarse resolved until 1.96, grad differs >1e-3 from t=None, max rel grad diff while resolved 2.3859522304080645e-05
+## C_ellipse
+- VERDICT (PLAN rule): no blow-up indicated  {"delta_collapse_beats_exp": false, "grad_finite_time_clearly_best": false, "Tstar_grad_delta_agree": true, "Tstar_grad_stable_in_N": false, "delta_exp_at_least_as_good": true, "Tstar_delta_moves_later_with_N": false, "grad_finite_time_not_clearly_best": true}
+- N=512: resolved to t=11.02; window t>=5.52
+    grad  exponential: a=1.954±0.0037(SE)±0.078(total), b=0.03824±0.00023(SE)±0.0043(total)  AIC=-2823.0
+    grad  double_exponential: a=2.023±0.0024(SE)±0.04(total), b=0.08858±0.00082(SE)±0.013(total), c=0.137±0.00058(SE)±0.0092(total)  AIC=-4293.7
+    grad  finite_time: B=2.441±0.00026(SE)±0.11(total), gamma=0.287±0.002(SE)±0.045(total), T=15.98±0.051(SE)±1(total)  AIC=-4013.3
+    delta exponential_decay: a=0.3146±0.018(SE)±0.85(total), b=-0.1903±0.007(SE)±0.11(total)  AIC=-931.5
+    delta finite_time_collapse: B=0.09623±0.00092(SE)±0.0048(total), p=0.4346±0.015(SE)±0.25(total), T=11.19±0.032(SE)±0.41(total)  AIC=-1326.1
+    T*(grad) over window starts (0.4, 0.5, 0.6, 0.7): 15.1, 16, 16.7, 17.2
+    T*(delta) over window starts: 11.2, 11.2, 11.4, 12
+- N=1024: resolved to t=15.96; window t>=7.98
+    grad  exponential: a=1.546±0.013(SE)±0.22(total), b=0.06178±0.0007(SE)±0.011(total)  AIC=-2743.0
+    grad  double_exponential: a=2.367±0.02(SE)±0.36(total), b=0.02411±0.0024(SE)±0.023(total), c=0.2052±0.0056(SE)±0.14(total)  AIC=-3315.1
+    grad  finite_time: B=2.672±0.0033(SE)±0.28(total), gamma=0.2903±0.0047(SE)±0.064(total), T=17.39±0.059(SE)±0.62(total)  AIC=-3556.6
+    delta exponential_decay: a=0.2668±0.0026(SE)±0.021(total), b=-0.1883±0.00081(SE)±0.0061(total)  AIC=-2626.0
+    delta finite_time_collapse: B=0.05932±0.00033(SE)±0.025(total), p=189.1±7.9e+02(SE)±8e+02(total), T=1016±4.2e+03(SE)±4.2e+03(total)  [T* at upper bound: no finite T*]  AIC=-2622.1
+    T*(grad) over window starts (0.4, 0.5, 0.6, 0.7): 17.8, 17.4, 16.9, 16.5
+    T*(delta) over window starts: 1.02e+03, 1.02e+03, 23.1, 19.5
+- N=2048: resolved to t=19.94; window t>=9.98
+    grad  exponential: a=0.7016±0.015(SE)±0.33(total), b=0.124±0.0014(SE)±0.035(total)  AIC=-2403.6
+    grad  double_exponential: a=2.112±0.032(SE)±1.1(total), b=0.04997±0.0038(SE)±3.3(total), c=0.1732±0.0035(SE)±0.082(total)  AIC=-3358.0
+    grad  finite_time: B=2.707±0.012(SE)±0.43(total), gamma=0.8701±0.023(SE)±4.5(total), T=22.67±0.16(SE)±25(total)  AIC=-3129.1
+    delta exponential_decay: a=0.2356±0.0019(SE)±0.053(total), b=-0.1853±0.00052(SE)±0.014(total)  AIC=-3388.0
+    delta finite_time_collapse: B=0.03702±0.00017(SE)±0.021(total), p=186.2±4.2e+02(SE)±4.2e+02(total), T=1020±2.2e+03(SE)±2.2e+03(total)  [T* at upper bound: no finite T*]  AIC=-3366.0
+    T*(grad) over window starts (0.4, 0.5, 0.6, 0.7): 22, 22.7, 24.8, 72.5
+    T*(delta) over window starts: 1.02e+03, 1.02e+03, 1.02e+03, 1.02e+03
+- N=composite: resolved to t=19.94; window t>=9.98  [composite: delta fit spans grid seams, NOT citable]
+    grad  exponential: a=0.7016±0.015(SE)±0.33(total), b=0.124±0.0014(SE)±0.035(total)  AIC=-2403.6
+    grad  double_exponential: a=2.112±0.032(SE)±1.1(total), b=0.04997±0.0038(SE)±3.3(total), c=0.1732±0.0035(SE)±0.082(total)  AIC=-3358.0
+    grad  finite_time: B=2.707±0.012(SE)±0.43(total), gamma=0.8701±0.023(SE)±4.5(total), T=22.67±0.16(SE)±25(total)  AIC=-3129.1
+    delta exponential_decay: a=0.2356±0.0019(SE)±0.053(total), b=-0.1853±0.00052(SE)±0.014(total)  AIC=-3388.0
+    delta finite_time_collapse: B=0.03702±0.00017(SE)±0.021(total), p=186.2±4.2e+02(SE)±4.2e+02(total), T=1020±2.2e+03(SE)±2.2e+03(total)  [T* at upper bound: no finite T*]  AIC=-3366.0
+    T*(grad) over window starts (0.4, 0.5, 0.6, 0.7): 22, 22.7, 24.8, 72.5
+    T*(delta) over window starts: 1.02e+03, 1.02e+03, 1.02e+03, 1.02e+03
+- convergence 512 vs 1024: overlap [0.0, 11.74], coarse resolved until 11.02, grad differs >1e-3 from t=9.4, max rel grad diff while resolved 0.003437588931543864
+- convergence 1024 vs 2048: overlap [0.0, 17.94], coarse resolved until 15.96, grad differs >1e-3 from t=14.9, max rel grad diff while resolved 0.006379525616594802
+## D_merger
+- VERDICT (PLAN rule): inconclusive  {"delta_collapse_beats_exp": true, "grad_finite_time_clearly_best": false, "Tstar_grad_delta_agree": false, "Tstar_grad_stable_in_N": false, "delta_exp_at_least_as_good": false, "Tstar_delta_moves_later_with_N": false, "grad_finite_time_not_clearly_best": true}
+- N=512: resolved to t=2.78; window t>=1.40
+    grad  exponential: a=1.521±0.0071(SE)±0.065(total), b=0.2048±0.0022(SE)±0.018(total)  AIC=-684.7
+    grad  double_exponential: a=1.523±0.018(SE)±0.21(total), b=0.1524±0.0086(SE)±0.089(total), c=0.4834±0.013(SE)±0.17(total)  AIC=-893.3
+    grad  finite_time: B=2.054±0.00077(SE)±0.15(total), gamma=0.4209±0.0083(SE)±0.088(total), T=4.194±0.039(SE)±0.38(total)  AIC=-935.1
+    delta exponential_decay: a=0.5064±0.00067(SE)±0.0078(total), b=-1.083±0.00062(SE)±0.0066(total)  AIC=-861.1
+    delta finite_time_collapse: B=0.1111±8.5e-05(SE)±0.046(total), p=1084±3.6e+03(SE)±3.6e+03(total), T=1003±3.3e+03(SE)±3.3e+03(total)  [T* at upper bound: no finite T*]  AIC=-854.6
+    T*(grad) over window starts (0.4, 0.5, 0.6, 0.7): 4.53, 4.19, 3.93, 3.77
+    T*(delta) over window starts: 1e+03, 1e+03, 1e+03, 65.9
+- N=1024: resolved to t=3.44; window t>=1.74
+    grad  exponential: a=1.242±0.019(SE)±0.19(total), b=0.2957±0.0058(SE)±0.057(total)  AIC=-621.4
+    grad  double_exponential: a=1.839±0.0045(SE)±0.062(total), b=0.04148±0.0009(SE)±0.012(total), c=0.8172±0.0055(SE)±0.065(total)  AIC=-1103.9
+    grad  finite_time: B=2.169±0.0014(SE)±0.21(total), gamma=0.3899±0.004(SE)±0.037(total), T=4.021±0.012(SE)±0.088(total)  AIC=-1022.9
+    delta exponential_decay: a=0.4883±0.00098(SE)±0.011(total), b=-1.069±0.00076(SE)±0.0077(total)  AIC=-971.2
+    delta finite_time_collapse: B=0.07597±8.7e-05(SE)±0.038(total), p=1070±3.5e+03(SE)±3.6e+03(total), T=1003±3.3e+03(SE)±3.3e+03(total)  [T* at upper bound: no finite T*]  AIC=-964.4
+    T*(grad) over window starts (0.4, 0.5, 0.6, 0.7): 4.03, 4.02, 4.07, 4.2
+    T*(delta) over window starts: 1e+03, 1e+03, 1e+03, 52.2
+- N=2048: resolved to t=4.06; window t>=2.04
+    grad  exponential: a=0.8731±0.023(SE)±0.24(total), b=0.4269±0.0083(SE)±0.092(total)  AIC=-611.7
+    grad  double_exponential: a=1.757±0.0088(SE)±0.14(total), b=0.05846±0.0017(SE)±0.028(total), c=0.7348±0.0062(SE)±0.069(total)  AIC=-1123.4
+    grad  finite_time: B=2.25±0.0049(SE)±0.35(total), gamma=0.6461±0.013(SE)±0.18(total), T=4.701±0.026(SE)±0.31(total)  AIC=-940.8
+    delta exponential_decay: a=0.4821±0.0011(SE)±0.0095(total), b=-1.067±0.00074(SE)±0.0058(total)  AIC=-1105.4
+    delta finite_time_collapse: B=0.05468±7.2e-05(SE)±0.031(total), p=1068±2.9e+03(SE)±2.9e+03(total), T=1004±2.7e+03(SE)±2.7e+03(total)  [T* at upper bound: no finite T*]  AIC=-1099.2
+    T*(grad) over window starts (0.4, 0.5, 0.6, 0.7): 4.59, 4.7, 4.89, 5.21
+    T*(delta) over window starts: 1e+03, 1e+03, 1e+03, 30
+- N=4096: resolved to t=4.64; window t>=2.94  [window starts clipped at hand-off: window spread not informative]
+    grad  exponential: a=0.3859±0.011(SE)±0.037(total), b=0.6607±0.0073(SE)±0.026(total)  AIC=-580.9
+    grad  double_exponential: a=1.08±0.021(SE)±0.11(total), b=0.259±0.0095(SE)±0.055(total), c=0.4524±0.006(SE)±0.028(total)  AIC=-945.9
+    grad  finite_time: B=2.859±0.0048(SE)±0.23(total), gamma=1.519±0.031(SE)±0.15(total), T=6.153±0.045(SE)±0.21(total)  AIC=-873.8
+    delta exponential_decay: a=0.6286±0.023(SE)±0.023(total), b=-1.134±0.0089(SE)±0.0089(total)  AIC=-398.7
+    delta finite_time_collapse: B=0.009559±1.7e-05(SE)±1.7e-05(total), p=2.743±0.11(SE)±0.11(total), T=6.589±0.092(SE)±0.092(total)  AIC=-530.8
+    T*(grad) over window starts (0.4, 0.5, 0.6, 0.7): 6.15, 6.15, 6.15, 6.55
+    T*(delta) over window starts: 6.59, 6.59, 6.59, 6.59
+- N=composite: resolved to t=4.64; window t>=2.32  [composite: delta fit spans grid seams, NOT citable]
+    grad  exponential: a=0.5743±0.018(SE)±0.22(total), b=0.5607±0.009(SE)±0.11(total)  AIC=-635.8
+    grad  double_exponential: a=1.434±0.02(SE)±0.36(total), b=0.1393±0.0058(SE)±0.13(total), c=0.5566±0.0076(SE)±0.11(total)  AIC=-1093.4
+    grad  finite_time: B=2.338±0.008(SE)±0.6(total), gamma=1.107±0.026(SE)±0.45(total), T=5.592±0.041(SE)±0.6(total)  AIC=-967.5
+    delta exponential_decay: a=0.5003±0.005(SE)±0.065(total), b=-1.08±0.0027(SE)±0.028(total)  AIC=-637.9
+    delta finite_time_collapse: B=0.03993±0.00015(SE)±0.028(total), p=16.26±1.8(SE)±18(total), T=18.53±1.6(SE)±17(total)  AIC=-692.2
+    T*(grad) over window starts (0.4, 0.5, 0.6, 0.7): 5.35, 5.59, 6, 6.55
+    T*(delta) over window starts: 39.7, 18.5, 12.8, 6.59
+- convergence 512 vs 1024: overlap [0.0, 3.4], coarse resolved until 2.78, grad differs >1e-3 from t=3.02, max rel grad diff while resolved 0.00042431644512576285
+- convergence 1024 vs 2048: overlap [0.0, 3.96], coarse resolved until 3.44, grad differs >1e-3 from t=3.34, max rel grad diff while resolved 0.0011333419633233054
+- convergence 2048 vs 4096: overlap [2.94, 4.48], coarse resolved until 4.06, grad differs >1e-3 from t=3.84, max rel grad diff while resolved 0.0030455039268758805
+## E_random
+- VERDICT (PLAN rule): inconclusive  {"delta_collapse_beats_exp": true, "grad_finite_time_clearly_best": false, "Tstar_grad_delta_agree": false, "Tstar_grad_stable_in_N": true, "delta_exp_at_least_as_good": false, "Tstar_delta_moves_later_with_N": false, "grad_finite_time_not_clearly_best": true}
+- N=512: resolved to t=0.86; window t>=0.44
+    grad  exponential: a=4.172±0.099(SE)±0.5(total), b=0.538±0.036(SE)±0.17(total)  AIC=-167.5
+    grad  double_exponential: a=5.286±0.034(SE)±0.2(total), b=0.003236±0.00088(SE)±0.0062(total), c=5.153±0.3(SE)±0.87(total)  AIC=-230.2
+    grad  finite_time: B=5.413±0.017(SE)±0.18(total), gamma=0.1305±0.011(SE)±0.06(total), T=0.9319±0.015(SE)±0.063(total)  AIC=-213.3
+    delta exponential_decay: a=0.8961±0.019(SE)±0.13(total), b=-4.047±0.032(SE)±0.19(total)  AIC=-172.1
+    delta finite_time_collapse: B=0.146±6e-05(SE)±0.056(total), p=6.456±0.055(SE)±0.97(total), T=2.251±0.014(SE)±0.23(total)  AIC=-314.8
+    T*(grad) over window starts (0.4, 0.5, 0.6, 0.7): 0.93, 0.932, 0.947, 1.05
+    T*(delta) over window starts: 1.86, 2.25, 2.28, 2.32
+- N=1024: resolved to t=1.14; window t>=0.58
+    grad  exponential: a=3.019±0.067(SE)±0.44(total), b=0.9821±0.025(SE)±0.15(total)  AIC=-217.1
+    grad  double_exponential: a=3.859±0.16(SE)±0.91(total), b=0.1376±0.024(SE)±0.15(total), c=1.666±0.12(SE)±0.58(total)  AIC=-279.1
+    grad  finite_time: B=5.516±0.022(SE)±0.59(total), gamma=0.6318±0.053(SE)±0.28(total), T=1.529±0.051(SE)±0.24(total)  AIC=-270.7
+    delta exponential_decay: a=0.8694±0.047(SE)±0.33(total), b=-3.603±0.062(SE)±0.33(total)  AIC=-165.2
+    delta finite_time_collapse: B=0.0976±0.00021(SE)±0.042(total), p=3.016±0.049(SE)±0.38(total), T=1.717±0.013(SE)±0.094(total)  AIC=-307.2
+    T*(grad) over window starts (0.4, 0.5, 0.6, 0.7): 1.36, 1.53, 1.84, 1.81
+    T*(delta) over window starts: 1.8, 1.72, 1.66, 1.61
+- N=2048: resolved to t=1.42; window t>=0.72
+    grad  exponential: a=2.336±0.043(SE)±0.34(total), b=1.257±0.017(SE)±0.12(total)  AIC=-275.8
+    grad  double_exponential: a=1.959±0.085(SE)±1.1(total), b=0.6157±0.034(SE)±0.63(total), c=0.8313±0.024(SE)±0.29(total)  AIC=-405.6
+    grad  finite_time: B=5.988±0.011(SE)±1.3(total), gamma=1.557±0.058(SE)±0.89(total), T=2.33±0.045(SE)±0.63(total)  AIC=-387.6
+    delta exponential_decay: a=0.711±0.031(SE)±0.23(total), b=-3.206±0.04(SE)±0.22(total)  AIC=-213.8
+    delta finite_time_collapse: B=0.06462±0.00031(SE)±0.033(total), p=4.124±0.16(SE)±1.2(total), T=2.377±0.049(SE)±0.35(total)  AIC=-319.7
+    T*(grad) over window starts (0.4, 0.5, 0.6, 0.7): 2.04, 2.33, 2.58, 3.3
+    T*(delta) over window starts: 2.71, 2.38, 2.18, 2.02
+- N=4096: resolved to t=1.72; window t>=1.08  [window starts clipped at hand-off: window spread not informative]
+    grad  exponential: a=1.268±0.053(SE)±0.13(total), b=1.75±0.03(SE)±0.073(total)  AIC=-223.9
+    grad  double_exponential: a=2.909±0.18(SE)±0.19(total), b=0.3443±0.034(SE)±0.035(total), c=1.09±0.042(SE)±0.043(total)  AIC=-326.3
+    grad  finite_time: B=8.854±0.03(SE)±0.9(total), gamma=1.661±0.075(SE)±0.11(total), T=2.372±0.041(SE)±0.059(total)  AIC=-316.9
+    delta exponential_decay: a=1.505±0.15(SE)±0.15(total), b=-3.543±0.063(SE)±0.063(total)  AIC=-104.3
+    delta finite_time_collapse: B=0.007752±7.3e-06(SE)±7.3e-06(total), p=2.008±0.05(SE)±0.05(total), T=2.173±0.014(SE)±0.014(total)  AIC=-168.3
+    T*(grad) over window starts (0.4, 0.5, 0.6, 0.7): 2.37, 2.37, 2.37, 2.46
+    T*(delta) over window starts: 2.17, 2.17, 2.17, 2.17
+- N=composite: resolved to t=1.72; window t>=0.86  [composite: delta fit spans grid seams, NOT citable]
+    grad  exponential: a=1.618±0.06(SE)±0.43(total), b=1.584±0.028(SE)±0.21(total)  AIC=-266.1
+    grad  double_exponential: a=2.563±0.084(SE)±0.17(total), b=0.4145±0.02(SE)±0.039(total), c=1.014±0.021(SE)±0.041(total)  AIC=-443.2
+    grad  finite_time: B=6.85±0.018(SE)±2.4(total), gamma=1.616±0.037(SE)±0.15(total), T=2.348±0.022(SE)±0.078(total)  AIC=-434.4
+    delta exponential_decay: a=0.5593±0.018(SE)±0.48(total), b=-2.927±0.024(SE)±0.32(total)  AIC=-155.2
+    delta finite_time_collapse: B=0.04308±0.00041(SE)±0.03(total), p=6.22±0.84(SE)±5.5(total), T=3.43±0.28(SE)±1.8(total)  AIC=-180.5
+    T*(grad) over window starts (0.4, 0.5, 0.6, 0.7): 2.31, 2.35, 2.37, 2.46
+    T*(delta) over window starts: 5.66, 3.43, 2.7, 2.17
+- convergence 512 vs 1024: overlap [0.0, 1.04], coarse resolved until 0.86, grad differs >1e-3 from t=None, max rel grad diff while resolved 7.603555712323587e-06
+- convergence 1024 vs 2048: overlap [0.0, 1.26], coarse resolved until 1.14, grad differs >1e-3 from t=None, max rel grad diff while resolved 0.00015322803998473142
+- convergence 2048 vs 4096: overlap [1.08, 1.56], coarse resolved until 1.42, grad differs >1e-3 from t=1.42, max rel grad diff while resolved 0.0026350321758538174
+## F_dipole
+- VERDICT (PLAN rule): no blow-up indicated  {"delta_collapse_beats_exp": false, "grad_finite_time_clearly_best": false, "Tstar_grad_delta_agree": true, "Tstar_grad_stable_in_N": true, "delta_exp_at_least_as_good": true, "Tstar_delta_moves_later_with_N": false, "grad_finite_time_not_clearly_best": true}
+- N=512: resolved to t=4.54; window t>=2.28
+    grad  exponential: a=1.844±0.0039(SE)±0.046(total), b=0.05488±0.00061(SE)±0.0065(total)  AIC=-1243.0
+    grad  double_exponential: a=1.921±0.01(SE)±0.094(total), b=0.03889±0.0034(SE)±0.027(total), c=0.3796±0.014(SE)±0.14(total)  AIC=-1469.9
+    grad  finite_time: B=2.106±0.00065(SE)±0.061(total), gamma=0.1429±0.0042(SE)±0.03(total), T=6.115±0.072(SE)±0.48(total)  AIC=-1508.5
+    delta exponential_decay: a=0.2682±0.003(SE)±0.039(total), b=-0.5362±0.0032(SE)±0.04(total)  AIC=-863.5
+    delta finite_time_collapse: B=0.07894±0.00049(SE)±0.03(total), p=536.8±1.1e+04(SE)±1.1e+04(total), T=1005±2e+04(SE)±2e+04(total)  [T* at upper bound: no finite T*]  AIC=-860.4
+    T*(grad) over window starts (0.4, 0.5, 0.6, 0.7): 6.54, 6.11, 5.6, 5.7
+    T*(delta) over window starts: 1e+03, 1e+03, 1e+03, 1e+03
+- N=1024: resolved to t=6.38; window t>=3.20
+    grad  exponential: a=1.622±0.0052(SE)±0.083(total), b=0.08755±0.00066(SE)±0.0096(total)  AIC=-1557.0
+    grad  double_exponential: a=1.625±0.019(SE)±0.61(total), b=0.1491±0.0087(SE)±0.49(total), c=0.2112±0.006(SE)±0.1(total)  AIC=-1909.6
+    grad  finite_time: B=2.175±0.0013(SE)±0.13(total), gamma=0.4378±0.015(SE)±0.6(total), T=9.892±0.16(SE)±6.1(total)  AIC=-1865.1
+    delta exponential_decay: a=0.187±0.0013(SE)±0.023(total), b=-0.4308±0.0015(SE)±0.023(total)  AIC=-1298.9
+    delta finite_time_collapse: B=0.04709±0.00019(SE)±0.019(total), p=431.5±3.6e+03(SE)±3.6e+03(total), T=1006±8.4e+03(SE)±8.4e+03(total)  [T* at upper bound: no finite T*]  AIC=-1293.8
+    T*(grad) over window starts (0.4, 0.5, 0.6, 0.7): 8.7, 9.89, 13.1, 20.9
+    T*(delta) over window starts: 1.01e+03, 1.01e+03, 1.01e+03, 1.01e+03
+- N=2048: resolved to t=8.76; window t>=4.38
+    grad  exponential: a=1.552±0.002(SE)±0.027(total), b=0.09575±0.00019(SE)±0.0022(total)  AIC=-2477.2
+    grad  double_exponential: a=0±0(SE)±1.1e-05(total), b=4098±2.2e+04(SE)±2.2e+04(total), c=2.336e-05±0.00013(SE)±0.004(total)  AIC=-2475.0
+    grad  finite_time: B=2.361±0.0017(SE)±0.31(total), gamma=95.96±3.4e+02(SE)±3.4e+02(total), T=1009±3.6e+03(SE)±3.6e+03(total)  [T* at upper bound: no finite T*]  AIC=-2468.1
+    delta exponential_decay: a=0.1173±0.0009(SE)±0.018(total), b=-0.3405±0.0012(SE)±0.021(total)  AIC=-1684.0
+    delta finite_time_collapse: B=0.02639±0.00012(SE)±0.012(total), p=341.3±2.1e+03(SE)±2.1e+03(total), T=1009±6.1e+03(SE)±6.1e+03(total)  [T* at upper bound: no finite T*]  AIC=-1677.1
+    T*(grad) over window starts (0.4, 0.5, 0.6, 0.7): 136, 1.01e+03, 1.01e+03, 1.01e+03
+    T*(delta) over window starts: 1.01e+03, 1.01e+03, 1.01e+03, 1.01e+03
+- N=4096: resolved to t=11.90; window t>=5.96
+    grad  exponential: a=1.819±0.0085(SE)±0.15(total), b=0.07446±0.00051(SE)±0.0077(total)  AIC=-2491.9
+    grad  double_exponential: a=0±0(SE)±0(total), b=4500±6.6e+04(SE)±6.6e+04(total), c=1.655e-05±0.00024(SE)±0.00024(total)  AIC=-2489.8
+    grad  finite_time: B=2.836±0.0075(SE)±0.36(total), gamma=74.68±6.8e+02(SE)±6.8e+02(total), T=1012±9.1e+03(SE)±9.1e+03(total)  [T* at upper bound: no finite T*]  AIC=-2486.0
+    delta exponential_decay: a=0.06651±0.001(SE)±0.008(total), b=-0.2635±0.0017(SE)±0.013(total)  AIC=-1679.3
+    delta finite_time_collapse: B=0.01149±8.7e-05(SE)±0.0023(total), p=264.2±2.5e+03(SE)±2.5e+03(total), T=1012±9.4e+03(SE)±9.4e+03(total)  [T* at upper bound: no finite T*]  AIC=-1674.8
+    T*(grad) over window starts (0.4, 0.5, 0.6, 0.7): 1.01e+03, 1.01e+03, 1.01e+03, 1.01e+03
+    T*(delta) over window starts: 1.01e+03, 1.01e+03, 1.01e+03, 1.01e+03
+- N=composite: resolved to t=11.90; window t>=5.96  [composite: delta fit spans grid seams, NOT citable]
+    grad  exponential: a=1.819±0.0085(SE)±0.19(total), b=0.07446±0.00051(SE)±0.0097(total)  AIC=-2491.9
+    grad  double_exponential: a=0±0(SE)±0(total), b=5112±3.7e+04(SE)±3.7e+04(total), c=1.456e-05±0.00011(SE)±0.00011(total)  AIC=-2489.8
+    grad  finite_time: B=2.836±0.0075(SE)±0.48(total), gamma=74.68±6.8e+02(SE)±6.8e+02(total), T=1012±9.1e+03(SE)±9.1e+03(total)  [T* at upper bound: no finite T*]  AIC=-2486.0
+    delta exponential_decay: a=0.06651±0.001(SE)±0.016(total), b=-0.2635±0.0017(SE)±0.024(total)  AIC=-1679.3
+    delta finite_time_collapse: B=0.01149±8.7e-05(SE)±0.007(total), p=264.2±2.5e+03(SE)±2.5e+03(total), T=1012±9.4e+03(SE)±9.4e+03(total)  [T* at upper bound: no finite T*]  AIC=-1674.8
+    T*(grad) over window starts (0.4, 0.5, 0.6, 0.7): 1.01e+03, 1.01e+03, 1.01e+03, 1.01e+03
+    T*(delta) over window starts: 1.01e+03, 1.01e+03, 1.01e+03, 1.01e+03
+- convergence 512 vs 1024: overlap [0.0, 6.58], coarse resolved until 4.54, grad differs >1e-3 from t=5.24, max rel grad diff while resolved 0.00010552467328410788
+- convergence 1024 vs 2048: overlap [0.0, 7.94], coarse resolved until 6.38, grad differs >1e-3 from t=6.92, max rel grad diff while resolved 0.0001852776860449616
+- convergence 2048 vs 4096: overlap [5.68, 10.8], coarse resolved until 8.76, grad differs >1e-3 from t=9.42, max rel grad diff while resolved 0.0008232880033932488
+## G_euler_cmt
+- VERDICT (PLAN rule): inconclusive  {"delta_collapse_beats_exp": true, "grad_finite_time_clearly_best": false, "Tstar_grad_delta_agree": true, "Tstar_grad_stable_in_N": true, "delta_exp_at_least_as_good": false, "Tstar_delta_moves_later_with_N": false, "grad_finite_time_not_clearly_best": true}
+- N=512: resolved to t=5.00; window t>=2.50
+    grad  exponential: a=0.3914±0.0084(SE)±0.11(total), b=0.6824±0.0056(SE)±0.074(total)  AIC=-774.6
+    grad  double_exponential: a=0.429±0.011(SE)±0.19(total), b=0.8495±0.018(SE)±0.4(total), c=0.2789±0.0028(SE)±0.05(total)  AIC=-1330.4
+    grad  finite_time: B=2.344±0.0041(SE)±1.1(total), gamma=2.529±0.039(SE)±0.77(total), T=7.542±0.055(SE)±0.99(total)  AIC=-1224.4
+    delta exponential_decay: a=3.645±0.15(SE)±1.9(total), b=-0.9395±0.011(SE)±0.09(total)  AIC=-613.9
+    delta finite_time_collapse: B=0.2991±0.0027(SE)±0.16(total), p=2.587±0.11(SE)±1.2(total), T=6.623±0.11(SE)±1.1(total)  AIC=-798.7
+    T*(grad) over window starts (0.4, 0.5, 0.6, 0.7): 6.99, 7.54, 8.18, 8.97
+    T*(delta) over window starts: 7.67, 6.62, 5.92, 5.54
+- N=1024: resolved to t=5.78; window t>=2.90
+    grad  exponential: a=0.27±0.0055(SE)±0.083(total), b=0.7768±0.0046(SE)±0.067(total)  AIC=-888.4
+    grad  double_exponential: a=0.1106±0.009(SE)±0.12(total), b=1.904±0.066(SE)±2.6(total), c=0.183±0.0035(SE)±0.068(total)  AIC=-1326.4
+    grad  finite_time: B=2.799±0.0075(SE)±1.9(total), gamma=4.379±0.1(SE)±3.3(total), T=10.05±0.13(SE)±3.8(total)  AIC=-1275.3
+    delta exponential_decay: a=3.858±0.14(SE)±1.8(total), b=-0.9435±0.0082(SE)±0.072(total)  AIC=-722.2
+    delta finite_time_collapse: B=0.217±0.0021(SE)±0.13(total), p=3.817±0.19(SE)±1.9(total), T=8.492±0.19(SE)±1.8(total)  AIC=-898.1
+    T*(grad) over window starts (0.4, 0.5, 0.6, 0.7): 8.91, 10.1, 11.9, 16.5
+    T*(delta) over window starts: 10, 8.49, 7.3, 6.54
+- N=2048: resolved to t=6.66; window t>=3.34
+    grad  exponential: a=0.2142±0.0025(SE)±0.038(total), b=0.826±0.0023(SE)±0.03(total)  AIC=-1185.6
+    grad  double_exponential: a=1.041e-06±1.7e-06(SE)±0.003(total), b=12.7±1.6(SE)±6.1e+03(total), c=0.0505±0.0051(SE)±0.053(total)  AIC=-1265.2
+    grad  finite_time: B=3.503±0.018(SE)±3.8(total), gamma=16.95±1.8(SE)±4.2e+02(total), T=25.55±2.1(SE)±5e+02(total)  AIC=-1261.7
+    delta exponential_decay: a=3.839±0.097(SE)±1.2(total), b=-0.9337±0.0049(SE)±0.045(total)  AIC=-928.8
+    delta finite_time_collapse: B=0.1534±0.0012(SE)±0.11(total), p=7.273±0.43(SE)±3.7(total), T=12.86±0.46(SE)±3.6(total)  AIC=-1082.2
+    T*(grad) over window starts (0.4, 0.5, 0.6, 0.7): 14.7, 25.6, 1.01e+03, 1.01e+03
+    T*(delta) over window starts: 15.4, 12.9, 10.2, 8.24
+- N=4096: resolved to t=7.78; window t>=5.58  [window starts clipped at hand-off: window spread not informative]
+    grad  exponential: a=0.4644±0.014(SE)±0.014(total), b=0.7018±0.0045(SE)±0.0045(total)  AIC=-773.1
+    grad  double_exponential: a=0±0(SE)±0(total), b=1.366e+04±2.8e+05(SE)±2.8e+05(total), c=5.136e-05±0.0011(SE)±0.0011(total)  AIC=-771.1
+    grad  finite_time: B=23.32±0.2(SE)±0.2(total), gamma=702.6±1.6e+04(SE)±1.6e+04(total), T=1008±2.3e+04(SE)±2.3e+04(total)  [T* at upper bound: no finite T*]  AIC=-770.2
+    delta exponential_decay: a=4.795±0.47(SE)±0.47(total), b=-0.9341±0.014(SE)±0.014(total)  AIC=-429.1
+    delta finite_time_collapse: B=0.01144±4.6e-05(SE)±4.6e-05(total), p=1.533±0.057(SE)±0.057(total), T=8.782±0.057(SE)±0.057(total)  AIC=-604.4
+    T*(grad) over window starts (0.4, 0.5, 0.6, 0.7): 1.01e+03, 1.01e+03, 1.01e+03, 1.01e+03
+    T*(delta) over window starts: 8.78, 8.78, 8.78, 8.78
+- N=composite: resolved to t=7.78; window t>=3.90  [composite: delta fit spans grid seams, NOT citable]
+    grad  exponential: a=0.2515±0.0052(SE)±0.09(total), b=0.7915±0.0035(SE)±0.04(total)  AIC=-1129.5
+    grad  double_exponential: a=0±0(SE)±0(total), b=3.438e+04±4.6e+05(SE)±4.6e+05(total), c=2.302e-05±0.00031(SE)±0.00031(total)  AIC=-1127.4
+    grad  finite_time: B=5.515±0.065(SE)±9(total), gamma=793±7e+03(SE)±7e+03(total), T=1008±8.9e+03(SE)±8.9e+03(total)  [T* at upper bound: no finite T*]  AIC=-1124.7
+    delta exponential_decay: a=2.728±0.045(SE)±0.27(total), b=-0.856±0.0028(SE)±0.013(total)  AIC=-970.6
+    delta finite_time_collapse: B=0.09587±0.00092(SE)±0.084(total), p=83.21±61(SE)±4.3e+02(total), T=103.1±72(SE)±5e+02(total)  AIC=-970.3
+    T*(grad) over window starts (0.4, 0.5, 0.6, 0.7): 1.01e+03, 1.01e+03, 1.01e+03, 1.01e+03
+    T*(delta) over window starts: 1.01e+03, 103, 16.2, 10.6
+- convergence 512 vs 1024: overlap [0.0, 6.86], coarse resolved until 5.00, grad differs >1e-3 from t=5.38, max rel grad diff while resolved 0.00033846365000029556
+- convergence 1024 vs 2048: overlap [0.0, 7.82], coarse resolved until 5.78, grad differs >1e-3 from t=6.1, max rel grad diff while resolved 0.0005287726902705925
+- convergence 2048 vs 4096: overlap [5.58, 8.7], coarse resolved until 6.66, grad differs >1e-3 from t=6.48, max rel grad diff while resolved 0.0011333936779986933
