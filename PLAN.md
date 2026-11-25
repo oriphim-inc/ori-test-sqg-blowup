@@ -1,6 +1,6 @@
 # PLAN — inviscid 2D SQG: is there a numerical sign of finite-time blow-up?
 
-Requested by: held-out runner. Planned by Ori (2026-11-13).
+Requested by: Oriphim. Planned by Ori (2026-11-13).
 
 ## Question
 For the inviscid surface quasi-geostrophic (SQG) equation on the periodic box [0,2π)²,

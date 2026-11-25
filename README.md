@@ -2,7 +2,7 @@
 
 # Inviscid 2D SQG: is there a numerical sign of finite-time blow-up?
 
-By held-out runner (who posed the question and owns the project), with Ori.
+By Oriphim (who posed the question and owns the project), with Ori.
 
 ## Answer
 **No numerical sign of SQG blow-up within the resolved windows.** This covers the
